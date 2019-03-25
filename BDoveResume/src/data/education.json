@@ -1,0 +1,21 @@
+[
+  {
+    "school": "Adelphi University",
+    "link":"https://online.adelphi.edu/graduate-degrees/ma-education-technology/",
+    "location": "New York",
+    "degree": "M.A.",
+    "start": 2018,
+    "end": -1,
+    "major": "Educational Technology"
+  },
+  {
+    "school": "Adelphi University",
+    "link": "https://music.adelphi.edu/",
+    "location": "New York",
+    "degree": "B.S.",
+    "start": 2010,
+    "end": 2014,
+    "major": "Music Performance and Composition",
+    "additional": "Graduated summa cum laude, with honors diploma from Adelphi Honors College."
+  }
+]

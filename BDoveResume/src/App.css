@@ -1,0 +1,93 @@
+/* Elements */
+
+body {
+  background-color: #efefef;
+  color: #3d3d3d;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: justify;
+}
+
+a {
+  color: #005262;
+  font-weight: bold;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+
+/* Classes */
+
+.elementProps {
+  border: 3px solid #005262;
+  border-radius: 15px 50px;
+}
+
+
+/* ID's */
+
+#headerName {
+    border: 15px groove #fff;
+    border-radius: 15px;
+    padding: 1px;
+    background-color: #bde5ac;
+}
+
+#imgProps {
+  max-width: 100%;
+  border-radius: 50px 15px;
+  padding-bottom: 10px;
+}
+
+#skillsProps {
+  margin-top: 10px;
+  background-color: #8ec7b7;
+}
+
+#educationProps {
+  margin-top: 20px;
+  background-color: #bde5ac;
+}
+
+#experienceProps {
+  margin-top: 20px;
+  background-color: #8ec7b7;
+   
+}
+
+
+/* Responsive layout for mobile */
+
+@media only screen and (max-width: 600px) {
+  header {
+    position: static;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+  }
+
+  #experienceProps {
+    margin-top: 0px;
+  }
+}
+
+
+/* Experiments with responsive layout for tablet */
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  header {
+    position: static;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+  }
+
+  #experienceProps {
+    margin-top: 0px;
+  }
+}
